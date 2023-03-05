@@ -13,7 +13,7 @@ import org.springframework.util.concurrent.ListenableFutureCallback;
 @Slf4j
 @RequiredArgsConstructor
 public class KafkaProduceService {
-    private static final String TOPIC_NAME = "topic5";
+    private static final String TOPIC_NAME = "testTopic";
     private final KafkaTemplate<String, String> kafkaTemplate;
     private final KafkaTemplate<String, MyMessage> newKafkaTemplate;
 
